@@ -1,0 +1,9 @@
+CodeIgniter 4 ignored files
+/vendor
+/writable/*
+!/writable/.htaccess
+!/writable/index.html
+env
+php-version
+phpunit.result.cache
+tests/_support/Database/Migrations/

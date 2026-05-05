@@ -1,0 +1,7 @@
+Sir, the issue happens because InfinityFree requires domain ownership verification before it allows us to add the custom subdomain resqr.mindset.ph to the hosting account.
+
+Kini nga step is part of their security system to make sure nga ang user nga nag-setup sa domain is tinuod nga tag-iya ug naa gyud full control sa DNS settings sa mindset.ph. Without this verification, the system will not proceed with the domain activation.
+
+Right now, InfinityFree is asking for a CNAME verification record. This record acts as proof of ownership kay it confirms nga naa tay access sa DNS configuration sa domain. Once this is correctly added and DNS propagation is complete, InfinityFree will automatically verify the domain and allow it to be linked to the hosting account.
+
+Importante pud nga dili i-change ang nameservers ngadto sa ns1.byet.org kay mahimo ni siyang makaapekto sa existing website ug email services sa main domain. Instead, ang correct and safe approach is using the CNAME verification method.
